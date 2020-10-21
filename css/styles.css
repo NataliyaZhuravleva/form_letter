@@ -1,3 +1,16 @@
 .hidden {
   display: none;
 }
+.grayline {
+  width: 90%;
+  border-top: solid double;
+  border-color:  #443356;
+  border-bottom: none;
+}
+ul {
+  float: left;
+}
+.returnedFormLetter {
+  padding: 20%;
+  margin-left: 15%;
+}

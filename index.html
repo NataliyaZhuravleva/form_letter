@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+  <link rel="stylesheet" href="css/bootstrap.css" class="css">
+  <link rel="stylesheet" href="css/styles.css" class="css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
 
   <title>Form Letter</title>
 </head>
@@ -11,7 +15,6 @@
     <h1>Get an exciting form letter!</h1>
     <div>
       <form id="form_one">
-
         <div class="form-group">
           <label for="first_name">Enter your first name:</label>
           <input id="first_name" class="form-control" type="text">
@@ -22,22 +25,23 @@
         </div>
         <button type="submit" class="btn">Show me my letter</button>
       </form>
-      <div class="hidden" id="letter">
-        <ul>
-          <p>Widgets, Inc.</p>
-          <p>234 Pennsylvania Ave</p>
-          <p>Washington, DC 90210</p>
-        </ul>
-        <p class="grayline"></p> <!-- just an element to style into a line for making our letter look more business-y -->
-        <img src="#" alt="company logo">
-        <div class="returnedFormLetter">
-          <h4>Dear <span class="person"></span>,<h4>
-              <p>We at Widgets, Inc. are so excited to offer you a position as paper sorter!. Please respond when
-                convenient if you would like to accept our offer.</p>
-        </div>
+    </div>
+    <div class="hidden">
+      <ul>
+        <p>Widgets, Inc.</p>
+        <p>234 Pennsylvania Ave</p>
+        <p>Washington, DC 90210</p>
+      </ul>
+      <p class="grayline"></p>
+      <!-- just an element to style into a line for making our letter look more business-y -->
+      <img src="img/ms_logo.png" alt="company logo">
+      <div class="returnedFormLetter">
+        <h4>Dear <span class="person"></span>,</h4>
+            <p>We at Widgets, Inc. are so excited to offer you a position as paper sorter!. Please respond when
+              convenient if you would like to accept our offer.</p>
       </div>
     </div>
-  </div>  
+  </div>
 </body>
 
 </html>
